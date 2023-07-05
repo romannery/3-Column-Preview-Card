@@ -31,7 +31,7 @@ body{
 }
 
 .title{
-    color: #F2F2F2;
+color: #F2F2F2;
 font-size: 40px;
 font-family: Big Shoulders Display;
 font-weight: 700;
@@ -137,3 +137,56 @@ img{
     height: 48px;
     box-sizing: border-box;    
 }
+
+@media (max-width:1000px){
+    body{
+    width: 800px;
+    height: 1500px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sedansContainer{
+    border-bottom-left-radius:0 ;
+    border-top-right-radius: 8px;
+    height: 346px;
+    width:231px;
+    padding-bottom: 48px;
+    padding-left: 48.5px;
+    padding-right: 47.5px;
+    }
+
+    .suvsContainer{
+        padding-left: 48.5px;
+        padding-right: 47.5px;
+        height: 346px;
+        width:231px;
+        padding-bottom: 48px;
+    }
+
+    .luxuryContainer{
+        padding-left: 48.5px;
+        padding-right: 47.5px;
+        height: 346px;
+        width:231px;
+        padding-bottom: 48px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .description{
+    width: 231px;
+    }
+
+    .learnMore{
+    margin-top:25px ;
+    }
+
+
+}
+
+    
