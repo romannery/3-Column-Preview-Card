@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap%27');
+
+
+
+body{
+    display: flex;
+    background-color: #F2F2F2;
+    height: 100vh;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.sedansContainer{
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+    background-color: #E28625;
+    height: 452px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-right: 47.5;
+}
+
+.title{
+    color: #F2F2F2;
+font-size: 40px;
+font-family: Big Shoulders Display;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.suvsContainer{
+     display: flex;
+    flex-direction: column;
+    background-color: #006971;
+    height: 452px;
+    padding-left: 48px;
+     width: 259px;
+     padding-top: 48px;
+}
+
+img{
+    width: 64px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+.luxuryContainer{
+        display: flex;
+        flex-direction: column;
+        max-width: 920px;
+        background-color: #004140;
+        height: 452px;
+        padding-left: 48px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width: 259px;
+        padding-top: 48px;
+}
+
+.description{
+    font-weight: 400;
+    line-height: 25px;
+    font-family:Lexend Deca;
+    font-size: 15px;
+    width: 211px;
+    color: #FFF;
+    opacity: 0.75;
+    margin-top: 25px;
+    
+}
+
+.learnMore{
+    margin-top: 83px;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+     font-family:Lexend Deca;
+     width: 146px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    display: flex;
+    
+}
+
+.sedans{
+    color: #E28625;
+}
+
+.suvs{
+    color: #006971;
+}
+
+.luxury{
+    color: #004140;
+}
+
+.luxury:hover{
+    background-color: #004140;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    width: 146px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.suvs:hover{
+    background-color: #006971;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    width: 146px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.sedans:hover{
+    background-color: #E28625;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    width: 146px;
+    height: 48px;
+    box-sizing: border-box;    
+}
